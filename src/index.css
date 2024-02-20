@@ -3,5 +3,10 @@
 @tailwind utilities;
 
 body {
-    @apply bg-gray-100
+    @apply bg-gray-100;
+    background: linear-gradient(116.83deg, #070D28 0%, #09264F 100.23%, #0D61AA 100.24%);
+
+}
+.recharts-legend-wrapper{
+    display: none !important;
 }
