@@ -10,3 +10,6 @@ body {
 .recharts-legend-wrapper{
     display: none !important;
 }
+::-webkit-scrollbar {
+    width: 0px; /* You can adjust the width to your preference */
+  }
