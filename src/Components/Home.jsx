@@ -110,9 +110,9 @@ const Home = () => {
         <>
             <MainLayout >
                 <div>
-                    <div className="flex justify-between flex-wrap gap-5 lg:gap-0">
+                    <div className="grid grid-cols-12 gap-2">
                         {data.map((item)=>
-                        <div className="max-w-[243px] w-full p-4   box-gradent rounded-[9.73px]" >
+                        <div className="col-span-12 sm:col-span-6 md:col-span-4  lg:col-span-3 p-4   box-gradent rounded-[9.73px]" >
                             <div className="flex  justify-between">
                                 <h2 className='font-medium  text-[15.57px] leading-[31.14px]'
                                     style={{
@@ -149,8 +149,8 @@ const Home = () => {
 
                     </div>
                     <div className="py-4">
-                        <div className="flex justify-between flex-wrap gap-5 lg:gap-0 ">
-                            <div className="max-w-[330px] text-center w-full p-4 box-gradent rounded-[9.73px]">
+                        <div className="grid grid-cols-12 gap-2  ">
+                            <div className=" text-center col-span-12 md:col-span-6 lg:col-span-4 p-4 box-gradent rounded-[9.73px]">
                                 <RevenueChart />
                                 <h2 className='font-medium pt-2 text-[9.73px] leading-[11.78px]'
                                 style={{
@@ -164,7 +164,7 @@ const Home = () => {
                                 Revenue / Month
                                 </h2>
                             </div>
-                            <div className="max-w-[330px] text-center w-full p-4 box-gradent rounded-[9.73px]">
+                            <div className=" text-center col-span-12 md:col-span-6 lg:col-span-4 p-4 box-gradent rounded-[9.73px]">
                                 <AmountChart />
                                 <h2 className='font-medium pt-2 text-[9.73px] leading-[11.78px]'
                                 style={{
@@ -178,7 +178,7 @@ const Home = () => {
                                 Amount of projects
                                 </h2>
                             </div>
-                            <div className="max-w-[330px] text-center w-full p-4 box-gradent rounded-[9.73px]">
+                            <div className=" text-center col-span-12 md:col-span-6 lg:col-span-4 p-4 box-gradent rounded-[9.73px]">
                                 <RevenueChart />
                                 <h2 className='font-medium pt-2 text-[9.73px] leading-[11.78px]'
                                 style={{
