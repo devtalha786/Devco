@@ -110,7 +110,7 @@ const Home = () => {
         <>
             <MainLayout >
                 <div>
-                    <div className="flex justify-between flex-wrap">
+                    <div className="flex justify-between flex-wrap gap-5 lg:gap-0">
                         {data.map((item)=>
                         <div className="max-w-[243px] w-full p-4   box-gradent rounded-[9.73px]" >
                             <div className="flex  justify-between">
@@ -149,7 +149,7 @@ const Home = () => {
 
                     </div>
                     <div className="py-4">
-                        <div className="flex justify-between ">
+                        <div className="flex justify-between flex-wrap gap-5 lg:gap-0 ">
                             <div className="max-w-[330px] text-center w-full p-4 box-gradent rounded-[9.73px]">
                                 <RevenueChart />
                                 <h2 className='font-medium pt-2 text-[9.73px] leading-[11.78px]'
