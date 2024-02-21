@@ -1,52 +1,57 @@
-.list ul li:hover{
+.list ul li:hover {
     box-shadow: 0px 1.9459457397460938px 1.9459457397460938px 0px #FFFFFF1A inset;
 
     box-shadow: 0.9729728698730469px 0px 6.713512897491455px 0px #FFFFFF1A inset;
-    
-border: 0.97px solid;
 
-border-image-source: linear-gradient(109.52deg, #FFFFFF 29.76%, rgba(255, 255, 255, 0) 64.07%);
-
-border-radius: 10px;
-background: linear-gradient(90deg, #151220 0%, #00213E 100%),
-linear-gradient(109.52deg, #FFFFFF 29.76%, rgba(255, 255, 255, 0) 64.07%);
-
-}
-.list ul li{
-border: 0.97px solid transparent;
-transition: .3s;
-border-radius: 10px;
-margin-bottom: 10px;
-
-
-}
-.active{
-    box-shadow: 1px 1px 1px 1px #FFFFFF1A inset;
     border: 0.97px solid;
-    
+
     border-image-source: linear-gradient(109.52deg, #FFFFFF 29.76%, rgba(255, 255, 255, 0) 64.07%);
-    
+
     border-radius: 10px;
     background: linear-gradient(90deg, #151220 0%, #00213E 100%),
-    linear-gradient(109.52deg, #FFFFFF 29.76%, rgba(255, 255, 255, 0) 64.07%);
+        linear-gradient(109.52deg, #FFFFFF 29.76%, rgba(255, 255, 255, 0) 64.07%);
+
 }
-.line-colr{
+
+.list ul li {
+    border: 0.97px solid transparent;
+    transition: .3s;
+    border-radius: 10px;
+    margin-bottom: 10px;
+
+
+}
+
+.active {
+    box-shadow: 1px 1px 1px 1px #FFFFFF1A inset;
+    border: 0.97px solid;
+
+    border-image-source: linear-gradient(109.52deg, #FFFFFF 29.76%, rgba(255, 255, 255, 0) 64.07%);
+
+    border-radius: 10px;
+    background: linear-gradient(90deg, #151220 0%, #00213E 100%),
+        linear-gradient(109.52deg, #FFFFFF 29.76%, rgba(255, 255, 255, 0) 64.07%);
+}
+
+.line-colr {
     background: linear-gradient(168.95deg, #2DF8BB 8.11%, rgba(44, 241, 183, 0.5) 91.83%);
 
 }
+
 .btn-gradient {
     background: linear-gradient(91.89deg, rgba(7, 13, 40, 0.3) 1.6%, rgba(13, 97, 170, 0.3) 98.4%), linear-gradient(101.16deg, rgba(131, 131, 131, 0.5) 15.39%, rgba(255, 255, 255, 0) 62.1%);
     border: 0.97px solid;
-    
+
     border-image-source: linear-gradient(109.52deg, #FFFFFF 29.76%, rgba(255, 255, 255, 0) 64.07%);
 }
-.box-gradent{
-    background: linear-gradient(180deg, rgba(21, 18, 32, 0.3) 0%, rgba(0, 47, 88, 0.3) 100%),
-    linear-gradient(103.61deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 100%);
-    
-border: 0.97px solid;
 
-border-image-source: linear-gradient(103.61deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 100%);
+.box-gradent {
+    background: linear-gradient(180deg, rgba(21, 18, 32, 0.3) 0%, rgba(0, 47, 88, 0.3) 100%),
+        linear-gradient(103.61deg, rgba(17, 17, 17, 0.2) 0%, rgba(255, 255, 255, 0) 100%);
+
+    border: 0.97px solid;
+
+    border-image-source: linear-gradient(103.61deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 100%);
 
 
 }

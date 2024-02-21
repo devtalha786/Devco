@@ -112,9 +112,9 @@ const Home = () => {
                 <div>
                     <div className="flex justify-between flex-wrap">
                         {data.map((item)=>
-                        <div className="max-w-[243px] w-full p-4 box-gradent rounded-[9.73px]" >
-                            <div className="flex justify-between">
-                                <h2 className='font-medium text-[15.57px] leading-[31.14px]'
+                        <div className="max-w-[243px] w-full p-4   box-gradent rounded-[9.73px]" >
+                            <div className="flex  justify-between">
+                                <h2 className='font-medium  text-[15.57px] leading-[31.14px]'
                                     style={{
                                         backgroundClip: 'text',
                                         WebkitBackgroundClip: 'text',
